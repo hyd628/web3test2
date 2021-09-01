@@ -1,0 +1,25 @@
+henryduong@WeiWorkMac web3test % node test.js
+0x613076756e6d736851304c7275394b4d
+	Error: CONNECTION ERROR: The connection got closed with the close code `1006` and the following reason string `Connection dropped by remote peer.`
+    at Object.ConnectionError (/Users/henryduong/Documents/workspace/web3test/node_modules/web3-core-helpers/lib/errors.js:66:23)
+    at Object.ConnectionCloseError (/Users/henryduong/Documents/workspace/web3test/node_modules/web3-core-helpers/lib/errors.js:53:25)
+    at /Users/henryduong/Documents/workspace/web3test/node_modules/web3-core-requestmanager/lib/index.js:119:50
+    at Map.forEach (<anonymous>)
+    at WebsocketProvider.disconnect (/Users/henryduong/Documents/workspace/web3test/node_modules/web3-core-requestmanager/lib/index.js:118:37)
+    at WebsocketProvider.emit (/Users/henryduong/Documents/workspace/web3test/node_modules/eventemitter3/index.js:181:35)
+    at WebsocketProvider._onClose (/Users/henryduong/Documents/workspace/web3test/node_modules/web3-providers-ws/lib/index.js:152:10)
+    at W3CWebSocket._dispatchEvent [as dispatchEvent] (/Users/henryduong/Documents/workspace/web3test/node_modules/yaeti/lib/EventTarget.js:115:12)
+    at W3CWebSocket.onClose (/Users/henryduong/Documents/workspace/web3test/node_modules/websocket/lib/W3CWebSocket.js:228:10)
+    at WebSocketConnection.<anonymous> (/Users/henryduong/Documents/workspace/web3test/node_modules/websocket/lib/W3CWebSocket.js:201:17)
+    at WebSocketConnection.emit (node:events:394:28)
+    at WebSocketConnection.handleSocketClose (/Users/henryduong/Documents/workspace/web3test/node_modules/websocket/lib/WebSocketConnection.js:389:14)
+    at TLSSocket.emit (node:events:406:35)
+    at node:net:672:12
+    at TCP.done (node:_tls_wrap:580:7) {
+  code: 1006,
+  reason: 'Connection dropped by remote peer.'
+}
+henryduong@WeiWorkMac web3test %        
+
+
+
